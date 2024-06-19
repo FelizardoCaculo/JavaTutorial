@@ -1,4 +1,4 @@
-public class Main{
+public class OutputNumbers{
     public static void main(String[] args){
         //Java Output Numbers
         //Print Numbers
