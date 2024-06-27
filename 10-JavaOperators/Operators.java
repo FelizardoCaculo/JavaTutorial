@@ -43,6 +43,6 @@ public class Operators {
         System.out.println("\n========== 3º Logical Operators ==========\n");
         System.out.println("Operador lógico E ===> x < 5 && x < 10      Resultado: " + logicalAnd);
         System.out.println("Operador lógico OU ==> y < 5 || y < 4       Resultado: " + logicalOr);
-        System.out.println("Operador lógico Não => !(x < 5 && x < 10)   Resultado: " + logicalOr);
+        System.out.println("Operador lógico Não => !(x < 5 && x < 10)   Resultado: " + logicalNot);
     }
 }
