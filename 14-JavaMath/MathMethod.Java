@@ -1,4 +1,4 @@
-public class Math{
+public class MathMethod{
     public static void main(String[] args){
         /*
          * A classe Math tem muitos métodos que permitem efectuar operações matemáticas em números
