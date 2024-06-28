@@ -1,4 +1,4 @@
-public class Booleans{
+public class BooleanDataType{
     publi static void main(String[] args){
         boolean isJavaFun = true;
         boolean isFishTasty = false;
