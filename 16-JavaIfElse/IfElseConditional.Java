@@ -1,4 +1,4 @@
-public class IfElse{
+public class IfElseConditional{
     public static void main(String[] args) {
         /*
          * Java has the following condition statements
