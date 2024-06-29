@@ -1,6 +1,7 @@
 import java.util.Scanner;
+import java.lang.Math;
 
-public class MathMethod{
+public class MathLibrary {
     public static void main(String[] args){
         /*
          * A classe Math tem muitos métodos que permitem efectuar operações matemáticas em números
@@ -19,6 +20,6 @@ public class MathMethod{
         System.out.println(randomNumber + " ===> Este é um número aleatório gerado entre 0 à 100");
         System.out.println("O maior número é: " + Math.max(x, y));
         System.out.println("O menor número é: " + Math.min(x, y));
-        System.out.println("A raís quadrada de " + y + " é: " + Math.sqrt(y));
+        System.out.println("\nA raís quadrada de " + y + " é: " + Math.sqrt(y));
     }
 }
