@@ -1,22 +1,28 @@
+import java.util.Scanner;
+
 public class BooleanDataType{
-    publi static void main(String[] args){
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
         boolean isJavaFun = true;
         boolean isFishTasty = false;
         int x = 10;
         int y = 20;
-        int minhaIdade = 36;
-        int idadeParaVotar = 18;
+        int minhaIdade;
+        int idadeParaVotar;
 
+        System.out.println("Quantos anos voce tem? ");
+        minhaIdade = input.nextInt();
+        System.out.println("Qual é a idade mínima para votar no teu país? ");
+        idadeParaVotar = input.nextInt();
         System.out.println(isJavaFun);
         System.out.println(isFishTasty);
-        System.out.println("x > y = " + x > y);
-        System.out.println("x < y = " + x < y);
-        System.out.println("x == y = " + x == y);
-        System.out.println(minhaIdade >= idadeParaVotar);
+        System.out.println("\nO resultado da comparação (x > y) é: " + (x > y));
+        System.out.println("O resultado da comparação (x < y) é: " + (x < y));
+        System.out.println("O resultado da comparação (x == y) é: " + (x == y));
         if (minhaIdade >= idadeParaVotar) {
-            Sytem.out.println("Minha idade me permite votar!");
+            System.out.println("\nMinha idade me permite votar!");
         } else {
-            System.out.println("Minha idade não me permite votar!");
+            System.out.println("\nMinha idade não me permite votar!");
         }
     }
 }
