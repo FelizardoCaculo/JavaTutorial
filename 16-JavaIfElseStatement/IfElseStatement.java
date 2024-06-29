@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class IfElseConditional{
+public class IfElseStatement {
     public static void main(String[] args) {
         /*
          * Java has the following condition statements
