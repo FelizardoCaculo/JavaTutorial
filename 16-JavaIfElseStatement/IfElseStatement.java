@@ -9,37 +9,37 @@ public class IfElseStatement {
          * 3- Use "else if" to specify a new condition to test, if the first condition is false
          * 1- Use "switch" to specify meny alternative block of code to be executed.
          */
-        Scanner input = new Scanner(System.in);
-        int x;
-        int y;
-        int time;
+        Scanner userInput = new Scanner(System.in);
+        int firstNumber;
+        int lastNumber;
+        int timeInHour;
 
-        System.out.println("\nDigite o primeiro número: ");
-        x = input.nextInt();
-        System.out.println("Digite o segundo número: ");
-        y = input.nextInt();
+        System.out.println("\nDigite o primeiro número inteiro: ");
+        firstNumber = userInput.nextInt();
+        System.out.println("Digite o segundo número inteiro: ");
+        lastNumber = userInput.nextInt();
         System.out.println("Que horas são? ");
-        time = input.nextInt();
+        timeInHour = userInput.nextInt();
 
         //The if statement
-        if (x > y) {
-            System.out.println(x + " é maior que " + y);
+        if (firstNumber > lastNumber) {
+            System.out.println(firstNumber + " é maior que " + lastNumber);
         }        
         //The else statement
-        if (time < 18) {
+        if (timeInHour < 18) {
             System.out.println("Bom dia!");
         } else {
             System.out.println("Boa noite!");
         }
         //The else if statement
-        time = 17;
-        if (time < 12) {
+        timeInHour = 17;
+        if (timeInHour < 12) {
             System.out.println("Bom dia!\n");
-        } else if (time > 12 && time < 18) {
+        } else if (timeInHour > 12 && timeInHour < 18) {
             System.out.println("Boa tarde!\n");
         } else {
             System.out.println("Boa noite!\n");
         }
-        input.close();
+        userInput.close();
     }
 }
