@@ -20,7 +20,7 @@ public class MathLibrary {
         System.out.println(randomNumber + " ===> Este é um número aleatório gerado entre 0 à 100");
         System.out.println("O maior número é: " + Math.max(firstNumber, lastNumber));
         System.out.println("O menor número é: " + Math.min(firstNumber, lastNumber));
-        System.out.println("\nA raís quadrada de " + y + " é: " + Math.sqrt(lastNumber));
+        System.out.println("\nA raís quadrada de " + lastNumber + " é: " + Math.sqrt(lastNumber));
         userInput.close();
     }
 }
