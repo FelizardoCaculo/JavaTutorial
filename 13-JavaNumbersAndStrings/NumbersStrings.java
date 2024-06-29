@@ -1,16 +1,21 @@
+import java.util.Scanner;
+
 public class NumbersStrings {
     public static void main(String[] args){
         //usamos o sinal + para adição(números) e concatenação(Strings)
-        int x = 10;
-        int y = 20;
-        int somaNumero = x + y; // o resultado será um número inteiro
-        String a = "10";
-        String b = "20";
-        String somaTexto = a + b; // o resultado será uma string concatenada
-        String somaNumeroComTexto = x + b;
+        Scanner userInput = new Scanner(System.in);
+        int firstNumber;
+        int lasteNumber;
+        String firstString = "10";
+        String lastString = "20";
+        System.out.println("\nEscreva o primeiro número: ");
+        firstNumber = userInput.nextInt();
+        System.out.println("Escreva o último número: ");
+        lasteNumber = userInput.nextInt();
 
-        System.out.println("\nSomando números: 10 + 20 = " + somaNumero);
-        System.out.println("Concatenando Strings: 10 + 20 = " + somaTexto);
-        System.out.println("Somando número 10 e texto 20: 10 + 20 = " + somaNumeroComTexto);
+        System.out.println("\nSomando números temos como resultado: " + (firstNumber + lasteNumber));
+        System.out.println("Concatenando Strings temos como resultado: " + (firstString + lastString));
+        System.out.println("Concatenando Número e String temos como resultado: " + (firstNumber + lastString));
+        userInput.close();
     }
 }
