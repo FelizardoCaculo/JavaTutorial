@@ -6,19 +6,20 @@ public class TernaryOperator {
       * Sintax
       * variable = (condition) ? expressionTrue : expressionFalse;
       */
-      Scanner input = new Scanner(System.in);
-      int time;
+      Scanner userInput = new Scanner(System.in);
+      int timeInHour;
 
       System.out.println("\nQue horas são?");
-      time = input.nextInt();
+      timeInHour = userInput.nextInt();
       //if else statement
-      if (time < 18) {
+      if (timeInHour < 18) {
          System.out.println("Good day!");
       } else {
          System.out.println("Good evening!");
       }
       //Ternary Operator
-      String result = (time < 18) ? "Good day!" : "Good evening!";
-      System.out.println(result);
+      String resultWithTernaryOperator = (timeInHour < 18) ? "Good day!" : "Good evening!";
+      System.out.println(resultWithTernaryOperator);
+      userInput.close();
    }       
 }
