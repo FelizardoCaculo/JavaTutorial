@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class IfElseConditional{
     public static void main(String[] args) {
         /*
@@ -7,26 +9,32 @@ public class IfElseConditional{
          * 3- Use "else if" to specify a new condition to test, if the first condition is false
          * 1- Use "switch" to specify meny alternative block of code to be executed.
          */
-        int x = 20;
-        int y = 18;
-        int time = 22;
+        Scanner input = new Scanner(System.in);
+        int x;
+        int y;
+        int time;
+
+        System.out.println("\nDigite o primeiro número: ");
+        x = input.nextInt();
+        System.out.println("Digite o segundo número: ");
+        y = input.nextInt();
+        System.out.println("Que horas são? ");
+        time = input.nextInt();
 
         //The if statement
         if (x > y) {
             System.out.println(x + " é maior que " + y);
-        }
-        
+        }        
         //The else statement
         if (time < 18) {
             System.out.println("Bom dia!");
         } else {
             System.out.println("Boa noite!");
         }
-
         //The else if statement
         time = 17;
         if (time < 12) {
-            System.println("Bom dia!");
+            System.out.println("Bom dia!");
         } else if (time > 12 && time < 18) {
             System.out.println("Boa tarde!");
         } else {
