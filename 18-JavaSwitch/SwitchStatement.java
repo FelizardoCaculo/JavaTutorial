@@ -36,5 +36,6 @@ public class SwitchStatement {
             default:
                 System.out.println("Escolha somente um número no intervalo de 1 a 7!!!");
         }
+        userInput.close();
     }
 }
