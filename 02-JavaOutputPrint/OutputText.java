@@ -19,6 +19,6 @@ public class OutputText{
         System.out.printf("I am %d years old\n", 36);
         System.out.printf("%s: %.2f kilos", "Meu peso é ", 76.2); //O .2 serve para delimitar o número de casas decimais depois da vírgula.
 
-        System.out.println();
+        System.out.println("\n");
     }
 }
