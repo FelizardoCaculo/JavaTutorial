@@ -1,5 +1,5 @@
-public class Syntax {
-    /*
+public class Sintax {
+        /*
      * 1- Every line of code that runs in Java must be inside a 
      * class.
      * In our example, we named the class Syntax. A class should
@@ -18,8 +18,8 @@ public class Syntax {
      * class name which must match the filename, and that every 
      * program must contain the main() method.
      */
-    public static void main(String[] args){
-        System.out.println("\nOlá mundo!\n");
-        System.out.println("Seja muito bem vindo ao curso Java!\n");
+    public static void main(String[] args) {
+        System.out.println("\nOlá mundo!");
+        System.out.println("\nSeja bem vindo ao curso de Java!");
     }
 }
