@@ -34,11 +34,11 @@ public class IfElseStatement {
         //The else if statement
         timeInHour = 17;
         if (timeInHour < 12) {
-            System.out.println("Bom dia!\n");
+            System.out.println("Ainda não são 12 horas. Bom dia!\n");
         } else if (timeInHour > 12 && timeInHour < 18) {
-            System.out.println("Boa tarde!\n");
+            System.out.println("Ainda não são 18 horas. Boa tarde!\n");
         } else {
-            System.out.println("Boa noite!\n");
+            System.out.println("Ja passou das 17 horas. Boa noite!\n");
         }
         userInput.close();
     }
