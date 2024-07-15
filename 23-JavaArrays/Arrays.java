@@ -1,15 +1,16 @@
 public class Arrays {
     public static void main(String[] args) {
         //Declaring an array
-        String[] carsMark = new String[3];//o 3 represente o de elementos que o array vai conter
+        String[] carsMark = new String[3];//o 3 represente o de elementos que o array vai conter, é obrigatório
 
-        //Assigning values to an array
+        //Assigning values to an array created before
         carsMark[0] = "Fiat";
         carsMark[1] = "Tesla";
         carsMark[2] = "Ferrarri";
 
         //Declaring and assigning values to an array
         String secondCarsMark[] = {"Volvo", "BMW", "Ford", "Mazda"};
+        int[] numbers = new int[]{1, 2, 3, 4, 5};
 
         //Declaring and assigning values
         String[] caculoBrothers = {"Felizardo", "Mérito", "Júbilo", "Memória", "Aurora", "Jesualda", "Ramísio", "Sílvio"};
@@ -38,6 +39,10 @@ public class Arrays {
         System.out.print("\n\nMarcas de carro - Lista 3: ");
         for(String iterableVariable : secondCarsMark){
             System.out.print(iterableVariable + ", ");
+        }
+        System.out.print("\n\nContagem numérica: ");
+        for (int iterableVariable : numbers) {
+            System.out.print(iterableVariable + ", ");    
         }
 
         //The array length
