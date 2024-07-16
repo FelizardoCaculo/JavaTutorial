@@ -27,5 +27,6 @@ public class Exercise003 {
         } else {
             System.out.println("\nInválido!");
         }
+        userInput.close();
     }
 }
