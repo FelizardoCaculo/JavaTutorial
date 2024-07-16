@@ -13,6 +13,7 @@ public class IfElseStatement {
         int firstNumber;
         int lastNumber;
         int timeInHour;
+        byte idade = 20;
 
         System.out.println("\nDigite o primeiro número inteiro: ");
         firstNumber = userInput.nextInt();
@@ -24,13 +25,21 @@ public class IfElseStatement {
         //The if statement
         if (firstNumber > lastNumber) {
             System.out.println(firstNumber + " é maior que " + lastNumber);
-        }        
-        //The else statement
+        }
+
+        if(idade > 18){
+            System.out.println("\nIdade é maior que " + idade);
+        }
+        
+
+        //The else statement / if else
         if (timeInHour < 18) {
             System.out.println("Bom dia!");
         } else {
             System.out.println("Boa noite!");
         }
+
+
         //The else if statement
         timeInHour = 17;
         if (timeInHour < 12) {
