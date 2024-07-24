@@ -49,6 +49,16 @@ public class IfElseStatement {
         } else {
             System.out.println("Ja passou das 17 horas. Boa noite!\n");
         }
+
+        //Nested if statement
+        System.out.println("\nQuantos kilos você pesa?");
+        double weight = userInput.nextDouble();
+        if(idade >= 18){
+            if(weight > 50){
+                System.out.println("Vocé é elegível para doar sangue!");
+            }
+        }
+
         userInput.close();
     }
 }
