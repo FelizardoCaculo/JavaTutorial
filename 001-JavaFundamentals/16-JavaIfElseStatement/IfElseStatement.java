@@ -6,7 +6,7 @@ public class IfElseStatement {
          * Java has the following condition statements
          * 1- Use "if" to specify a block of code to be executed, if a specified condition is true
          * 2- Use "else" to specify a block of code to be executed, if a specified condition is false
-         * 3- Use "else if" to specify a new condition to test, if the first condition is false
+         * 3- Use "else if" to specify a new conditions to test, if the first condition is false
          * 1- Use "switch" to specify meny alternative block of code to be executed.
          */
         Scanner userInput = new Scanner(System.in);
