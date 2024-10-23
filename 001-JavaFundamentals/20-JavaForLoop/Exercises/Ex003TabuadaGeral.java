@@ -1,3 +1,4 @@
+package Exercises;
 public class Ex003TabuadaGeral {
     public static void main(String[] args) {
 

@@ -1,3 +1,4 @@
+package Exercises;
 public class Ex001Printn10Numbers {
 
     public static void main(String[] args) {

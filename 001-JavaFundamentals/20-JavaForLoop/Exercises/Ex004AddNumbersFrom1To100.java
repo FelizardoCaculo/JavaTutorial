@@ -1,3 +1,4 @@
+package Exercises;
 public class Ex004AddNumbersFrom1To100 {
 
     public static void main(String[] args) {

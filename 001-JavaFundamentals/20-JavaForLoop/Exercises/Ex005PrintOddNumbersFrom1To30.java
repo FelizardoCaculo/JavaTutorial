@@ -1,3 +1,4 @@
+package Exercises;
 public class Ex005PrintOddNumbersFrom1To30 {
 
     public static void main(String[] args) {

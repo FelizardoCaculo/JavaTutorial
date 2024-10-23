@@ -1,3 +1,4 @@
+package Exercises;
 public class Ex002PrintEvenNumbersFrom1To20 {
 
     public static void main(String[] args) {
